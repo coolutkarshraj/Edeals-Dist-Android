@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+    <TextView
+        android:id="@+id/tvEmptyOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:fontFamily="@font/exo_bold"
+        android:gravity="center"
+        android:text="No orders available"
+        android:textSize="22dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/pbOrders"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/tvRefreshOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fontawesome"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/icon_refresh"
+        android:textColor="@color/colorPrimary"
+        android:textSize="58dp"
+        android:visibility="gone" />
+</FrameLayout>

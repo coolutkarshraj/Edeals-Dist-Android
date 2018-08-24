@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "95895940541",
+    "firebase_url": "https://fir-notification-1456c.firebaseio.com",
+    "project_id": "fir-notification-1456c",
+    "storage_bucket": "fir-notification-1456c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95895940541:android:5a8ea15029b43ac0",
+        "android_client_info": {
+          "package_name": "com.edeals.dist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95895940541-vg9ikr9dcfo91be9cds71sh5h56qm4jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMSw_y2-YHysCEhBFgXjyqNrA44fWYF1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

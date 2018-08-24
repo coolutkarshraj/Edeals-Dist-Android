@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/exo</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/exo</item>
+    </style>
+
+    <style name="FooterItemBox" parent="AppTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FooterIcon" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/fontawesome</item>
+        <item name="android:textColor">@color/colorGrayLight</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="FooterText" parent="AppTheme">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/exo</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:layout_gravity">center|bottom</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+
+    <style name="NavTextStyle" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/exo</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

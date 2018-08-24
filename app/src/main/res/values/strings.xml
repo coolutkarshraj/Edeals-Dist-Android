@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">edeals</string>
+    <string name="title_activity_distributor">DistributorActivity</string>
+    <string name="stock">stock</string>
+    <string name="orders">orders</string>
+    <string name="inbox">inbox</string>
+
+    <string name="icon_group_by">&#xf1b3;</string>
+    <string name="icon_view_as">&#xf029;</string>
+    <string name="icon_filter">&#xf1de;</string>
+    <string name="icon_more">&#xf142;</string>
+    <string name="icon_refresh">&#xf021;</string>
+</resources>

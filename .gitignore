@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/app.iml
+/.gradle/4.1/fileHashes
+/.gradle/4.1/javaCompile
+/.gradle/4.1/taskHistory
+/.gradle/4.1/fileContent
+/.gradle/4.1/fileChanges
+/.idea

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="shopTypes">
+        <item>General Store</item>
+        <item>Medical Store</item>
+        <item>Stationary Store</item>
+        <item>Cosmetics Store</item>
+    </array>
+</resources>

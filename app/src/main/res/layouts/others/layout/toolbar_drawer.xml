@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:gravity="top"
+    android:layout_gravity="top"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="48dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivOpenDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="26dp"
+            android:layout_weight="0"
+            android:visibility="visible"
+            android:src="@drawable/menu_icon_white" />
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:background="#f3f3f3"
+            android:src="@drawable/back" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/llInner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvToolbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="HOME"
+            android:fontFamily="@font/exo"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:hint="Search products"
+            android:background="#f3f3f3"
+            android:paddingLeft="15sp"
+            android:fontFamily="@font/exo"
+            android:textColor="@color/colorGray"
+            android:visibility="gone"
+            android:focusable="true"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivSearchIcon"
+        android:layout_width="78dp"
+        android:layout_height="match_parent"
+        android:padding="11dp"
+        android:layout_weight="1"
+        android:src="@drawable/search_white" />
+</LinearLayout>
